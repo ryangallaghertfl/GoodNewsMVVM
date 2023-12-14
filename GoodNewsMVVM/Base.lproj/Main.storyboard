@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--News List Table View Controller-->
+        <!--GoodNews-->
         <scene sceneID="zHb-Ud-1Pj">
             <objects>
                 <tableViewController id="iMd-Kf-Vs6" customClass="NewsListTableViewController" customModule="GoodNewsMVVM" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <outlet property="delegate" destination="iMd-Kf-Vs6" id="gUI-Jk-7bG"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="mvF-Xg-VKZ"/>
+                    <navigationItem key="navigationItem" title="GoodNews" id="mvF-Xg-VKZ"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tto-UD-ANn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
