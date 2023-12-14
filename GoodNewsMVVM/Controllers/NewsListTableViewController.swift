@@ -9,5 +9,7 @@ import Foundation
 import UIKit
 
 class NewsListTableViewController: UITableViewController {
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
