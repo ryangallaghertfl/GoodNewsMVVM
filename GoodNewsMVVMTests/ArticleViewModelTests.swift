@@ -29,6 +29,19 @@ final class ArticleViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.author, "Mock Author")
         }
     
+    func test_ArticleListViewModel_ArticleRetrievalAtIndex() {
+        let source1 = Source(id: "BBC", name: "MockName")
+        let source2 = Source(id: "ITV", name: "MockName2")
+            let articles = [Article(title: "Mock Title", author: "Mock Author", source: source1, publishedAt: "BBC", url: "BBC.com"), Article(title: "Fake Title", author: "Fake Author", source: source2, publishedAt: "ITV", url: "ITV.com")]
+            let listViewModel = ArticleListViewModel(articles: articles)
+            
+            let firstArticleVM = listViewModel.articleAtIndex(0)
+            XCTAssertEqual(firstArticleVM.title, "Mock Title")
+            
+            let secondArticleVM = listViewModel.articleAtIndex(1)
+            XCTAssertEqual(secondArticleVM.title, "Fake Title")
+        }
+    
     func test_ArticleListViewModel_Init_shouldCorrectlyBePopulatedByArray() {
         let source1 = Source(id: "BBC", name: "MockName")
         let source2 = Source(id: "ITV", name: "MockName2")
