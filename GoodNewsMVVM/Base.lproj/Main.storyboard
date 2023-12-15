@@ -48,6 +48,10 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="qE1-5I-5c5" secondAttribute="bottom" id="pKu-df-mFh"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="authorLabel" destination="H2d-q7-yAA" id="LMI-J8-4iv"/>
+                                    <outlet property="titleLabel" destination="ODp-Mx-bNQ" id="mnd-bi-p3X"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
