@@ -19,6 +19,7 @@
 		A15AA3522B2C61B7001B8A96 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3512B2C61B7001B8A96 /* Webservice.swift */; };
 		A15AA3552B2C691D001B8A96 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3542B2C691D001B8A96 /* Article.swift */; };
 		A15AA3582B2C767F001B8A96 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3572B2C767F001B8A96 /* ArticleViewModel.swift */; };
+		A15AA35B2B2C9665001B8A96 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA35A2B2C9665001B8A96 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A15AA3512B2C61B7001B8A96 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		A15AA3542B2C691D001B8A96 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		A15AA3572B2C767F001B8A96 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		A15AA35A2B2C9665001B8A96 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		A15AA31C2B2B6AD8001B8A96 /* GoodNewsMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				A15AA3592B2C964C001B8A96 /* Cells */,
 				A15AA3562B2C7658001B8A96 /* ViewModels */,
 				A15AA3532B2C68F2001B8A96 /* Models */,
 				A15AA3502B2C6182001B8A96 /* Services */,
@@ -166,6 +169,14 @@
 				A15AA3572B2C767F001B8A96 /* ArticleViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A15AA3592B2C964C001B8A96 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA35A2B2C9665001B8A96 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +315,7 @@
 				A15AA3522B2C61B7001B8A96 /* Webservice.swift in Sources */,
 				A15AA3582B2C767F001B8A96 /* ArticleViewModel.swift in Sources */,
 				A15AA3202B2B6AD8001B8A96 /* SceneDelegate.swift in Sources */,
+				A15AA35B2B2C9665001B8A96 /* ArticleTableViewCell.swift in Sources */,
 				A15AA3552B2C691D001B8A96 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
