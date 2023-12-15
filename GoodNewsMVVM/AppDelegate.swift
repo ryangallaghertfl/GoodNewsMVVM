@@ -5,25 +5,42 @@
 //  Created by Ryan Gallagher on 14/12/2023.
 //
 
-import UIKit
+//import UIKit
+//
+//@main
+//class AppDelegate: UIResponder, UIApplicationDelegate {
 
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
 
+//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+//        //r iOS 15 and later versions, which would include iOS 17.2, use the new UINavigationBarAppearance class to customise the appearance of your navigation bar. This class provides a more detailed and flexible way to customise the navigation bar, including its colour, text attributes, and other properties.
+//        let appearance = UINavigationBarAppearance()
+//            appearance.configureWithOpaqueBackground()
+//            appearance.backgroundColor = UIColor(displayP3Red: 47/255, green: 54/255, blue: 64/255, alpha: 1.0)
+//        appearance.largeTitleTextAttributes =  [NSAttributedString.Key.foregroundColor: UIColor.white]
+//        appearance.titleTextAttributes =  [NSAttributedString.Key.foregroundColor: UIColor.white]
+//
+//            UINavigationBar.appearance().standardAppearance = appearance
+//            UINavigationBar.appearance().compactAppearance = appearance
+//            UINavigationBar.appearance().scrollEdgeAppearance = appearance
+//        return true
+//    }
+    
+    import UIKit
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        //r iOS 15 and later versions, which would include iOS 17.2, use the new UINavigationBarAppearance class to customise the appearance of your navigation bar. This class provides a more detailed and flexible way to customise the navigation bar, including its colour, text attributes, and other properties.
-        let appearance = UINavigationBarAppearance()
-            appearance.configureWithOpaqueBackground()
-            appearance.backgroundColor = UIColor(displayP3Red: 47/255, green: 54/255, blue: 64/255, alpha: 1.0)
-        appearance.largeTitleTextAttributes =  [NSAttributedString.Key.foregroundColor: UIColor.white]
-        appearance.titleTextAttributes =  [NSAttributedString.Key.foregroundColor: UIColor.white]
+    @UIApplicationMain
+    class AppDelegate: UIResponder, UIApplicationDelegate {
 
-            UINavigationBar.appearance().standardAppearance = appearance
-            UINavigationBar.appearance().compactAppearance = appearance
-            UINavigationBar.appearance().scrollEdgeAppearance = appearance
-        return true
+        var window: UIWindow?
+
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+            window = UIWindow()
+            window?.makeKeyAndVisible()
+            window?.rootViewController = UINavigationController(rootViewController: NewsListTableViewController())
+
+            return true
+        }
     }
+
 
     // MARK: UISceneSession Lifecycle
 
