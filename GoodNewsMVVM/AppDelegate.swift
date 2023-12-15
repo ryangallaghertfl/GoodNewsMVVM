@@ -12,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        //r iOS 15 and later versions, which would include iOS 17.2, use the new UINavigationBarAppearance class to customize the appearance of your navigation bar. This class provides a more detailed and flexible way to customize the navigation bar, including its colour, text attributes, and other properties.
+        //r iOS 15 and later versions, which would include iOS 17.2, use the new UINavigationBarAppearance class to customise the appearance of your navigation bar. This class provides a more detailed and flexible way to customise the navigation bar, including its colour, text attributes, and other properties.
         let appearance = UINavigationBarAppearance()
             appearance.configureWithOpaqueBackground()
             appearance.backgroundColor = UIColor(displayP3Red: 47/255, green: 54/255, blue: 64/255, alpha: 1.0)
