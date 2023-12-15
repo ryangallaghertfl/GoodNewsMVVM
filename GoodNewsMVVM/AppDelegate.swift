@@ -22,10 +22,6 @@
                     UINavigationBar.appearance().standardAppearance = appearance
                     UINavigationBar.appearance().compactAppearance = appearance
                     UINavigationBar.appearance().scrollEdgeAppearance = appearance
-            
-            window = UIWindow()
-            window?.makeKeyAndVisible()
-            window?.rootViewController = UINavigationController(rootViewController: NewsListTableViewController())
 
             return true
         }
