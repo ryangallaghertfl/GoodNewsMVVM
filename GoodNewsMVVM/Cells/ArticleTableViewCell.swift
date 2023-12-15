@@ -56,14 +56,15 @@ class ArticleTableViewCell: UITableViewCell {
     
     //MARK: Setup constraints
     private func setupConstraints() {
+        let margins = contentView.layoutMarginsGuide
         NSLayoutConstraint.activate([
-            // Constraints for the stackView
-            stackView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 11),
-            stackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
-            stackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20),
-            stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -11)
+            stackView.topAnchor.constraint(equalTo: margins.topAnchor),
+            stackView.leadingAnchor.constraint(equalTo: margins.leadingAnchor),
+            stackView.trailingAnchor.constraint(equalTo: margins.trailingAnchor),
+            stackView.bottomAnchor.constraint(equalTo: margins.bottomAnchor)
         ])
     }
+
 
 
     
