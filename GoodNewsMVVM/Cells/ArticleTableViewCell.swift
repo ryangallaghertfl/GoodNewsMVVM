@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class ArticleTableViewCell {
+class ArticleTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var authorLabel: UILabel!
