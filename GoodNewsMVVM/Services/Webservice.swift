@@ -19,6 +19,6 @@ class Webservice {
             } else if let data = data {
                 print(data)
             }
-        }
+        }.resume()
     }
 }
