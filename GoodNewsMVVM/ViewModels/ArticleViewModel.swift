@@ -10,8 +10,19 @@ import Foundation
 struct ArticleViewModel {
     private let article: Article
 }
+
 extension ArticleViewModel {
     init(_ article: Article) {
         self.article = article
+    }
+}
+
+extension ArticleViewModel {
+    var title: String {
+        return self.article.title
+    }
+    
+    var author: String {
+        return self.article.author ?? ""
     }
 }
