@@ -17,6 +17,7 @@
 		A15AA3412B2B6AD9001B8A96 /* GoodNewsMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3402B2B6AD9001B8A96 /* GoodNewsMVVMUITestsLaunchTests.swift */; };
 		A15AA34F2B2B6BAB001B8A96 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA34E2B2B6BAA001B8A96 /* NewsListTableViewController.swift */; };
 		A15AA3522B2C61B7001B8A96 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3512B2C61B7001B8A96 /* Webservice.swift */; };
+		A15AA3552B2C691D001B8A96 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3542B2C691D001B8A96 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A15AA3402B2B6AD9001B8A96 /* GoodNewsMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A15AA34E2B2B6BAA001B8A96 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 		A15AA3512B2C61B7001B8A96 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		A15AA3542B2C691D001B8A96 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		A15AA31C2B2B6AD8001B8A96 /* GoodNewsMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				A15AA3532B2C68F2001B8A96 /* Models */,
 				A15AA3502B2C6182001B8A96 /* Services */,
 				A15AA34D2B2B6B67001B8A96 /* Controllers */,
 				A15AA31D2B2B6AD8001B8A96 /* AppDelegate.swift */,
@@ -144,6 +147,14 @@
 				A15AA3512B2C61B7001B8A96 /* Webservice.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		A15AA3532B2C68F2001B8A96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3542B2C691D001B8A96 /* Article.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +292,7 @@
 				A15AA34F2B2B6BAB001B8A96 /* NewsListTableViewController.swift in Sources */,
 				A15AA3522B2C61B7001B8A96 /* Webservice.swift in Sources */,
 				A15AA3202B2B6AD8001B8A96 /* SceneDelegate.swift in Sources */,
+				A15AA3552B2C691D001B8A96 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
