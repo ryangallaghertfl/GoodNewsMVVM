@@ -63,6 +63,8 @@ class ArticleTableViewCell: UITableViewCell {
             stackView.trailingAnchor.constraint(equalTo: margins.trailingAnchor),
             stackView.bottomAnchor.constraint(equalTo: margins.bottomAnchor)
         ])
+        
+        
     }
 
 

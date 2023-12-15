@@ -36,6 +36,8 @@ class NewsListTableViewController: UITableViewController {
         // Additional tableView configurations
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 100
+
+
     }
 
     // MARK: - TableView DataSource Methods
