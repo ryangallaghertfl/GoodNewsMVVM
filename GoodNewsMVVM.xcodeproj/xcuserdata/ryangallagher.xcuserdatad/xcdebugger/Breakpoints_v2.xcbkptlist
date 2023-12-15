@@ -97,6 +97,21 @@
                   endingLineNumber = "26"
                   offsetFromSymbolStart = "1696">
                </Location>
+               <Location
+                  uuid = "748394A4-AF68-4344-BF19-46DE4D223A3E - 48cac7dfe05b21a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GoodNewsMVVM.Webservice.getArticles(url: Foundation.URL, completion: (Swift.Optional&lt;Swift.Array&lt;GoodNewsMVVM.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GoodNewsMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryangallagher/Documents/UIKitProjects/GoodNewsMVVM/GoodNewsMVVM/Services/Webservice.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1644">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
