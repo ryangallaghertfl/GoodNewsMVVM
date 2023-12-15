@@ -24,6 +24,9 @@ class NewsListTableViewController: UITableViewController {
 
     // MARK: - Setup UI
     private func setupUI() {
+        // Set the title for the navigation bar
+            self.title = "GoodNews"
+        
         // Set large titles for navigation bar
         navigationController?.navigationBar.prefersLargeTitles = true
 
