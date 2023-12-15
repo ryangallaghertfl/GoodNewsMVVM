@@ -10,8 +10,10 @@ import UIKit
 
 class NewsListTableViewController: UITableViewController {
     
-    var endpointgb =  "https://newsapi.org/v2/top-headlines?country=gb&apiKey=8e8b208c7248435f8cb0f7253bdfb52d"
-    var endpointus = "https://newsapi.org/v2/top-headlines?country=us&apiKey=8e8b208c7248435f8cb0f7253bdfb52d"
+    private var articleListVM: ArticleListViewModel!
+    
+    let endpointgb =  "https://newsapi.org/v2/top-headlines?country=gb&apiKey=8e8b208c7248435f8cb0f7253bdfb52d"
+    let endpointus = "https://newsapi.org/v2/top-headlines?country=us&apiKey=8e8b208c7248435f8cb0f7253bdfb52d"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +25,14 @@ class NewsListTableViewController: UITableViewController {
         
         let url = URL(string: endpointgb)!
         
-        Webservice().getArticles(url: url) { _ in
-            //
+        Webservice().getArticles(url: url) { articles in
+            if let articles = articles {
+                self.articleListVM = ArticleListViewModel(articles: articles)
+                
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
+            }
         }
     }
 }
