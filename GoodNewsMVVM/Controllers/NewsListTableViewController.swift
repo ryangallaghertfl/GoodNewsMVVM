@@ -39,4 +39,8 @@ class NewsListTableViewController: UITableViewController {
     override func numberOfSections(in tableView: UITableView) -> Int {
         return self.articleListVM == nil ? 0 : self.articleListVM.numberOfSections
     }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.articleListVM.numberOfRowsInSection(section)
+    }
 }
