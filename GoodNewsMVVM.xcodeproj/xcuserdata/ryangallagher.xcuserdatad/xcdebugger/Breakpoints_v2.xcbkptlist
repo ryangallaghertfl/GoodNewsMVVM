@@ -14,8 +14,8 @@
             filePath = "GoodNewsMVVM/Services/Webservice.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "getArticles(url:completion:)"
             landmarkType = "7">
             <Locations>
@@ -55,20 +55,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DD33D7CF-4F94-43EC-AAD5-15ACF54474C6"
+            uuid = "748394A4-AF68-4344-BF19-46DE4D223A3E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GoodNewsMVVM/Services/Webservice.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "getArticles(url:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "DD33D7CF-4F94-43EC-AAD5-15ACF54474C6 - 48cac7dfe05b2023"
+                  uuid = "748394A4-AF68-4344-BF19-46DE4D223A3E - 48cac7dfe05b264e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -78,12 +78,12 @@
                   urlString = "file:///Users/ryangallagher/Documents/UIKitProjects/GoodNewsMVVM/GoodNewsMVVM/Services/Webservice.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "980">
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "892">
                </Location>
                <Location
-                  uuid = "DD33D7CF-4F94-43EC-AAD5-15ACF54474C6 - 48cac7dfe05b2023"
+                  uuid = "748394A4-AF68-4344-BF19-46DE4D223A3E - 48cac7dfe05b21a7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -93,24 +93,9 @@
                   urlString = "file:///Users/ryangallagher/Documents/UIKitProjects/GoodNewsMVVM/GoodNewsMVVM/Services/Webservice.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "968">
-               </Location>
-               <Location
-                  uuid = "DD33D7CF-4F94-43EC-AAD5-15ACF54474C6 - 48cac7dfe05b2023"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GoodNewsMVVM.Webservice.getArticles(url: Foundation.URL, completion: (Swift.Optional&lt;Swift.Array&lt;GoodNewsMVVM.Article&gt;&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "GoodNewsMVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ryangallagher/Documents/UIKitProjects/GoodNewsMVVM/GoodNewsMVVM/Services/Webservice.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "960">
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1696">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -7,11 +7,23 @@
 
 import Foundation
 
-struct ArticleList {
-    let articles: [Article] //matches the array name in the json payload
+struct ResponseData: Decodable {
+    let status: String
+    let totalResults: Int
+    let articles: [Article]
 }
 
 struct Article: Decodable {
     let title: String
-    let description: String
+    let author: String?
+    let source: Source
+    let publishedAt: String
+    let url: String
 }
+
+struct Source: Decodable {
+    let id: String?
+    let name: String
+}
+
+
